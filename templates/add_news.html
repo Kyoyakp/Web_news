@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<p>
+
+</p>
+
+<form method="POST" action="news">
+  <pre>
+    <label>Headlines
+    <input type="text" name="Headlines" value="" required>
+    </label>
+    <label>Description
+    <input type="para" name="Description" value="" required>
+    </label>
+    <label>Author
+    <input type="text" name="Author Name" value="" required>
+    </label>
+    <label>News Category
+    <input type="text" name="News Category" value="" required>
+    </label>
+    <button type="submit" value="submit">Upload</button>
+  </pre>
+</form>
+<!-- <input type="submit" value="Upload"> -->
+
+{% endblock %}

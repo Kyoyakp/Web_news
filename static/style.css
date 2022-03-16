@@ -1,0 +1,45 @@
+section {
+  color:white;
+}
+div a{
+  color: green;
+  background: #444444;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+.info{
+  color: #10D6E7;
+}
+
+header {
+  background: #2F3061;
+  color: white;
+  padding:30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+body{
+  background: rgb(30, 20, 40);
+}
+
+form {
+  padding: 8px;
+  color: green;
+  text-decoration-style: solid;
+  font-size: 5px
+}
+button {
+  color: white;
+  background: #444444;
+  padding: 6px;
+  border-radius: 4px
+}
+input {
+  color: white;
+  background: #444444;
+  padding: 6px;
+  border-radius: 4px
+}

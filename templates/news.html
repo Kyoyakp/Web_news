@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block main %}
+
+<pre>
+
+</pre>
+<form action="contribute">
+<input type="submit" value="Add News">
+</form>
+<section>
+  {% if Category %}
+    <p>{{ Category }}</p>
+    <p>{{ Headlines }}</p>
+    <p>{{ Description }}</p>
+    <p>{{ Author }}</p>
+  {% endif %}
+</section>
+
+{% endblock %}
